@@ -128,9 +128,8 @@ namespace HR.Common.Persistence.EntityFrameworkCore
                         DbContext.Dispose();
                     }
                 }
-
-                base.Dispose(disposing);
             }
+            base.Dispose(disposing);
         }
     }
 }
