@@ -8,15 +8,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B566739F-537F-4473-8E66-1AF841F2CA5A}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
+		hr.png = hr.png
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Common.Persistence.InMemory", "HR.Common.Persistence.InMemory\HR.Common.Persistence.InMemory.csproj", "{F818E914-96B9-4C82-8D6A-F6F25E82C731}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Common.Persistence.EntityFrameworkCore", "HR.Common.Persistence.EntityFrameworkCore\HR.Common.Persistence.EntityFrameworkCore.csproj", "{B5C3ACA5-57DF-49AC-A749-B48ECD846BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.Common.Persistence.Tests", "HR.Common.Persistence.Tests\HR.Common.Persistence.Tests.csproj", "{1964B673-AB73-4972-A707-D0BF41D65D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Common.Persistence.Tests", "HR.Common.Persistence.Tests\HR.Common.Persistence.Tests.csproj", "{1964B673-AB73-4972-A707-D0BF41D65D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.Common.Persistence.Tests.Integration", "HR.Common.Persistence.Tests.Integration\HR.Common.Persistence.Tests.Integration.csproj", "{636E29E4-CB11-4199-B2D6-78AB23597136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Common.Persistence.Tests.Integration", "HR.Common.Persistence.Tests.Integration\HR.Common.Persistence.Tests.Integration.csproj", "{636E29E4-CB11-4199-B2D6-78AB23597136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
