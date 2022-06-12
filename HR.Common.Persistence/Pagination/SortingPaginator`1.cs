@@ -25,13 +25,13 @@ namespace HR.Common.Persistence.Pagination
         public int PageNumber
         {
             get => pageNumber;
-            set => pageNumber = Ensure.Argument.NotOutOfRange(value, nameof(PageNumber), message: "Value cannot be negative or zero.", lowerBound: 1);
+            set => pageNumber = Ensure.Argument.NotOutOfRange(value, nameof(PageNumber), message: "Value cannot be negative or zero.", 1, null);
         }
 
         public int PageSize
         {
             get => pageSize;
-            set => pageSize = Ensure.Argument.NotOutOfRange(value, nameof(PageSize), message: "Value cannot be negative or zero.", lowerBound: 1);
+            set => pageSize = Ensure.Argument.NotOutOfRange(value, nameof(PageSize), message: "Value cannot be negative or zero.", 1, null);
         }
 
         public int PageCount { get; private set; }
